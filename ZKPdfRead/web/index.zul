@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window sizable="true" apply="utility.pdfRead" title="Document View" border="normal" width="65%" height="90%"
+    position="center,center" closable="true">
+        <textbox id="txtUrl"></textbox>
+        <button id="btnGo" height="25px" width="30px">Tes</button>
+        <iframe id="report" autohide="true" width="100%" height="100%"></iframe>
+  </window>
+</zk>
