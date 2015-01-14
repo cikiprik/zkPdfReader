@@ -116,24 +116,7 @@ public class pdfRead extends GenericForwardComposer {
     @Override
     public void doAfterCompose(Component comp) throws Exception {
         super.doAfterCompose(comp);
-        //readPdfFromFile(session.getAttribute("path").toString());
-//        try {
-//            idPath = session.getAttribute("path").toString();
-//            System.out.println("idpath : " + idPath);
-//        } catch (Exception e) {
-//            System.out.println("error path:" + e);
-//        }
-
-//        String url = null;
-//        try {
-////        
-//            url = "http://www.bekasikota.go.id/files/fck/tdp.pdf";
-//
-//        } catch (Exception e) {
-//            System.out.println(e);
-//        }
-        
-        
+   
         
     }
     
@@ -256,7 +239,7 @@ public class pdfRead extends GenericForwardComposer {
                 int i = 0;
                 PdfContentByte under;
                 
-                Image img = Image.getInstance("img/watermarkregina.png");
+                Image img = Image.getInstance("img/watermark.png");
                 img.setTransparency(new int[]{0x00, 0x10});
                 img.setAbsolutePosition(0, 0);
                 while (i < n) {
